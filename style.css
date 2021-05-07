@@ -1,0 +1,36 @@
+body{
+    margin: 0 auto;
+    background-color: rgb(245, 201, 201);
+}
+.top{
+    font-size: 25px;
+    border: 2px solid none;
+    background-color: rgb(209, 143, 143);
+    margin: 10px;
+    padding: 10px;
+    text-align: center;
+    height: 150px;
+    color: rgb(34, 33, 80);
+}
+#countries{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+.country{
+    border: 1px solid goldenrod;
+    border-radius: 20px;
+    margin: 20px;
+    padding: 20px;
+    width: 300px;
+    text-align: center;
+}
+.country-name{
+    font-size: 30px;
+    color: green;
+}
+#country-details{
+    text-align: center;
+} 
+#country-details img{
+    width: 200px;
+}
